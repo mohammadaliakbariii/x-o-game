@@ -16,7 +16,7 @@ createBoard()
 
 function addGo(e){
     const goDisplay = document.createElement('div')
-    goDisplay.classList.add("circle")
+    goDisplay.classList.add("cross")
     console.log(e.target)
     e.target.append(goDisplay)
 }
