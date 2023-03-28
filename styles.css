@@ -23,4 +23,15 @@ body {
     background-color: white;
     border: solid 2px black;
     box-sizing: border-box;
+    display: flex;
+    justify-content: flex;
+    align-items: flex;
+}
+
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: solid 15px blue;
+    box-sizing: border-box;
 }
